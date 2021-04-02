@@ -3,7 +3,8 @@
   <img class="title" :src="shoppingBag">
 
   <cartbody />
-  </div>
+  
+</div>
 </template>
 
 <script>

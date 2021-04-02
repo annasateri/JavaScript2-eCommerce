@@ -17,7 +17,6 @@
           </tr>
           <!-- First row -->
 
-
 </template>
 
 <script>
@@ -35,13 +34,14 @@ export default {
 </script>
 
 <style scoped>
-.image-width {
-  width: 150px;
-}
 
-.btnColor {
-  background-color: #ada79a;
-  color: #fff;
-}
+  .image-width {
+    width: 150px;
+  }
+
+  .btnColor {
+    background-color: #ada79a;
+    color: #fff;
+  }
 
 </style>

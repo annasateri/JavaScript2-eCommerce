@@ -16,7 +16,6 @@ exports.getOneOrder = (req, res) => {
 
 exports.saveOrder = (req, res) => {
   const order = new Order({
-    // _id: new mongodb.Types.ObjectId,
     userId: req.body.userId,
     email: req.body.email,
     cart: req.body.cart,

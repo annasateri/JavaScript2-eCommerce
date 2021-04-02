@@ -9,13 +9,13 @@
             <div class="detailsText">
                 {{ product.title }} | {{product.description}}
             </div>
-            <div class="font-weight-bold">
-                {{product.price}} SEK
+                <div class="font-weight-bold">
+                    {{product.price}} SEK
+                </div>
+        </div>
+            <div class="AddToBag text-center mt-2">
+                <button class="btn btn-white" @click="total(); addToCart({product, quantity, amount});">ADD TO BAG</button>
             </div>
-        </div>
-        <div class="AddToBag text-center mt-2">
-            <button class="btn btn-white" @click="total(); addToCart({product, quantity, amount});">ADD TO BAG</button>
-        </div>
     </div>
 </div>
 

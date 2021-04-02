@@ -108,15 +108,15 @@ export default {
 </script>
 
 <style scoped>
-.btnColor {
-  background-color: #ada79a;
-  color: #fff;
-}
 
-.btnColor:hover {
-  background-color: #fff;
-  color: #ada79a;
-}
+  .btnColor {
+    background-color: #ada79a;
+    color: #fff;
+  }
 
+  .btnColor:hover {
+    background-color: #fff;
+    color: #ada79a;
+  }
 
 </style>

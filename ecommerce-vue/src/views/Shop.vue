@@ -5,6 +5,7 @@
       </div>
 
       <grid />
+
   </div>
 </template>
 
@@ -26,8 +27,8 @@ export default {
 
 <style scoped>
 
-.shopProducts {
-    width: 30%;
-}
+    .shopProducts {
+        width: 30%;
+    }
 
 </style>

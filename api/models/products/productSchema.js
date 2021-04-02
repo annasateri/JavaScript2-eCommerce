@@ -2,7 +2,6 @@ const mongodb = require('mongoose')
 
 const productSchema = mongodb.Schema({
 
-  // _id: mongodb.Schema.Types.ObjectId,
   title: { type: String, required: true },
   description: { type: String, required: true },
   price: { type: Number, required: true },

@@ -63,7 +63,7 @@ export default {
 <style scoped>
 
   .newInImg {
-    width: 60%;
+    width: 50%;
   }
 
   .newInImg1 {

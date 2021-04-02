@@ -1,8 +1,12 @@
 <template>
+
   <div class="container text-center mt-5">
     <img class ="ordersImg" :src="ordersImg">
-  <order-body />
+
+      <order-body />
+      
   </div>
+
 </template>
 
 <script>

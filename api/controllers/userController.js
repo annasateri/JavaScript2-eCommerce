@@ -9,6 +9,5 @@ router.get('/:id', userModel.getOneUser);
 router.post('/register', userModel.registerUser);
 router.post('/login', userModel.loginUser);
 
-// router.patch('/:id', userModel.updateUser);
 
 module.exports = router;

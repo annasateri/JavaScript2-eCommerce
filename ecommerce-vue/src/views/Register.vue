@@ -83,27 +83,22 @@ export default {
     .container {
         width: 35%;
     }
-
     .signIn {
         background-color: #ada79a;
         color: #fff;
     }
-
     .fab {
         color: #fff;
     }
-
     .link {
         color: #ada79a;
         text-decoration: underline;
         font-weight: 500;
     }
-
     .link:hover {
         color: #000;
         text-decoration: none;
     }
-
     .img {
       width: 20vw;
     }

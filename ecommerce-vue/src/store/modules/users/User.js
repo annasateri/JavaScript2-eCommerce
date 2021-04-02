@@ -64,9 +64,6 @@ export default {
       dispatch('login', {user})
     },
     login: ({commit}, payload) => {
-
-      console.log(payload)
-      // console.log(commit)
       axios.post('/users/login', payload)
         .then(res => {
           if(res.status === 200) {

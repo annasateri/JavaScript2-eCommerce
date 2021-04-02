@@ -1,9 +1,9 @@
 <template>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="logoText">
-        <router-link :to="'/'"> <img class="logoImg navbar-brand" :src="logotype"> </router-link>
-      </div>
+  <div class="logoText">
+    <router-link :to="'/'"> <img class="logoImg navbar-brand" :src="logotype"> </router-link>
+  </div>
   <div class="container">
     <button
       class="navbar-toggler"
@@ -19,13 +19,13 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <router-link class="nav-link" to="/NewIn" exact>NEW IN</router-link>
+          <router-link class="nav-link text-black" to="/NewIn" exact>NEW IN</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/Shop" exact>SHOP</router-link>
+          <router-link class="nav-link text-black" to="/Shop" exact>SHOP</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/About" exact>ABOUT</router-link>
+          <router-link class="nav-link text-black" to="/About" exact>ABOUT</router-link>
         </li>
       </ul>
       <ul class="nav-item navbar-nav ml-auto nav-flex-icons">
@@ -56,7 +56,7 @@
               </ul>
 
           </div>
-            <router-link class="nav-link" to="/Cart" exact><i class="fas fa-shopping-bag"></i><span class="badge rounded-pill badge-notification bg-black" v-show="cartItemCount > 0">{{cartItemCount}}</span></router-link>
+            <router-link class="nav-link" to="/Cart" exact><i class="fas fa-shopping-bag"></i><span class="badge rounded-pill badge-notification" v-show="cartItemCount > 0">{{cartItemCount}}</span></router-link>
       </ul>
     </div>
   </div>
@@ -86,36 +86,33 @@ export default {
 
 <style scoped>
 
+  .rounded-pill {
+    background-color: #ada79a;
+  }
   .nav-link:hover {
     text-decoration: underline;
   }
-
   .fas {
     color: #000;
   }
   .fas:hover {
     color: #ada79a;
   }
-
   .fa-shopping-bag {
     font-size: 15pt;
   }
-
   .logoText {
     display: flex;
     justify-content: center;
     position: absolute;
     width: 100%;
   }
-
   .logoImg {
     width: 10rem;
   }
-
   .nav-link {
     z-index: 2;
   }
-
   .navbar-nav {
     z-index: 2;
   }

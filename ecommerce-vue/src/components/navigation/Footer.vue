@@ -4,8 +4,8 @@
   <!-- Grid container -->
   <div class="container p-4 pb-0">
     <!-- Section: Form -->
-    <section class="">
-      <form action="">
+    <section>
+      <form>
         <!--Grid row-->
         <div class="row d-flex justify-content-center">
           <!--Grid column-->
@@ -60,21 +60,19 @@ export default {
   .bg {
     background: linear-gradient(90deg, rgba(230,221,200,0.33610538942139356) 0%, rgba(196,190,177,0.3333042689732143) 100%);
   }
-
   .footerLink {
     color: #ada79a;
   }
   .footerLink:hover {
     color: #fff;
   }
-
   .btn {
     background-color: #ada79a;
     color: #fff;
   }
-
   .btn:hover {
     background-color: #fff;
     color: #ada79a;
   }
+
 </style>

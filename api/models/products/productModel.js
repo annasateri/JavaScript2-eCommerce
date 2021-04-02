@@ -16,7 +16,6 @@ exports.getOneProduct = (req, res) => {
 
 exports.saveProduct = (req, res) => {
   const product = new Product({
-    // _id: new mongodb.Types.ObjectId,
     title: req.body.title,
     description: req.body.description,
     price: req.body.price,

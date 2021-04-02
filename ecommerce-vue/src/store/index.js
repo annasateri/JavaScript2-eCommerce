@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-// import axios from 'axios'
+
 import Products from './modules/products/Products'
 import Product from './modules/products/Product'
 import Users from './modules/users/Users'

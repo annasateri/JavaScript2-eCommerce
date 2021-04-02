@@ -106,12 +106,6 @@ exports.loginUser = (req, res) => {
     })
 }
 
-
-
-
-
-
-
 exports.getUsers = (req, res) => {
   User.find()
   .then(data => res.status(200).json(data))
@@ -123,48 +117,3 @@ exports.getOneUser = (req, res) => {
   .then(data => res.status(200).json(data))
   .catch(err => res.status(500).json(err))
 }
-
-
-// exports.saveUser = (req, res) => {
-//   const user = new User({
-//     // _id: new mongodb.Types.ObjectId,
-//     firstname: req.body.firstname,
-//     lastname: req.body.lastname,
-//     email: req.body.email,
-//     password: req.body.password
-    
-//   })
-//   user.save()
-//   .then(() => {
-//     res.status(201).json({
-//       statusCode: 201,
-//       status: true,
-//       message: 'User created successfully'
-//     })
-//   })
-//   .catch(() => {
-//     res.status(500).json({
-//       statusCode: 500,
-//       status: false,
-//       message: 'Failed to create user'
-//     })
-//   })
-// }
-
-// exports.updateUser = (req, res) => {
-//   User.updateOne({ _id: req.params.id }, req.body)
-//   .then(() => {
-//     res.status(200).json({
-//       statusCode: 200,
-//       status: true,
-//       message: 'User updated successfully'
-//     })
-//   })
-//   .catch(() => {
-//     res.status(500).json({
-//       statusCode: 500,
-//       status: false,
-//       message: 'Failed to update user'
-//     })
-//   })
-// }
